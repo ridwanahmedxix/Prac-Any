@@ -2,8 +2,37 @@
     padding: 0;
     margin: 0;
 }
-section{
-    background-color: blueviolet;
+footer{
+    background-color: rgb(86, 33, 135);
     color: white;
-    padding: 100px 0  50px 0;
+    padding: 100px 0;
+}
+.footer-parent{
+    display: flex;
+    gap: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.single-footer{
+    width: 100%;
+    align-items: center;
+}
+.footer1 h4{
+    margin-bottom: 20px;
+}
+.footer1 p{
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+.footer2 h4{
+    margin-bottom: 20px;
+}
+.footer2 p{
+    padding: 10px 0;
+}
+.footer3 h4{
+    margin-bottom: 20px;
+}
+.footer3 p {
+    padding: 10px 0;
 }
