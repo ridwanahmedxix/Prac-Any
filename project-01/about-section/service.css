@@ -49,8 +49,13 @@ body{
     border: none;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.7s;
     
 }
 .btn-back button{
     border: none;
+}
+.btn-back  :hover{
+    background-color: #F527BE;
+    color: white;
 }
