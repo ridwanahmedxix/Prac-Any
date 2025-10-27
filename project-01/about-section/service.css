@@ -3,3 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #6DDB25;
+}
+.main-logo h2{
+    font-size: 40px;
+    padding: 25px 20px;
+    text-align: center;
+    color: white;
+}
