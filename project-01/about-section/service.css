@@ -10,5 +10,24 @@ body{
     font-size: 40px;
     padding: 25px 20px;
     text-align: center;
+    color: black;
+}
+#parent-div{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px ;
+}
+.single-all-card{
+    border: 2px solid black;
+    padding: 15px 20px;
+    margin: 20px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.single-all-card h3{
+    padding: 10px 0;
+}
+.single-all-card:hover{
+    background-color: #CF3ACD;
     color: white;
 }
