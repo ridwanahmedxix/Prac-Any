@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #084B61;
+}
+.contact-btn  button{
+    background-color: chartreuse;
+    padding: 20px 30px;
+    margin-right: 50px;
+    margin-top: 18px;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 16px;
+    border: none;
+    
+}
+.contact-btn  button:hover{
+    background-color:rgb(107, 203, 12) ;
+}
+.nav-list-item li{
+    display: inline-block;
+    padding: 20px ;
+    color: white;
+    font-size: 20px;
+} 
+.nav-logo{
+    margin-left: 30px;
+    font-weight: 100px;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+/* First Section Code Start  */
+.first-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(photo/nature-bg-pro-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main-logo-section{
+    color: whitesmoke ;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 40px;
+    
+}
