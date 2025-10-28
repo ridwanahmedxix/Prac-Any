@@ -3,3 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #FA34BA;
+    color: azure;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a button{
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: o.5s;
+}
+a button:hover{
+    background-color: bisque;
+}
+
+/* First Section Code Start  */
+
+section{
+ background-color: #F268C5;
+ height: 100vh;
+ padding-left: 180px;
+ padding-top: 50px;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.single-div-two{
+    margin-top: 140px;
+    margin-right: 300px;
+}
+ .single-div-two h2{
+    font-size: 48px;
+    padding: 20px 0;
+}
+.single-div-two a{
+    text-decoration: none;
+}
+.single-div-two a button{
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
