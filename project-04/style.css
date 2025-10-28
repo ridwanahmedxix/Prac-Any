@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: linear-gradient(to right, #3498db, #2c3e50); 
+} ;
+h1{
+    color: red;
+}
