@@ -1,9 +1,48 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-color: linear-gradient(to right, #3498db, #2c3e50); 
-} ;
-h1{
-    color: red;
+    background-color: #F52768;
+    
+}    
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.single-card-2{
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 25px;
+   
+
+}
+.single-card-2 img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 200px;
+    
+}
+.single-card{
+    padding: 200px 100px;
+}
+.single-card h4{
+    font-size: 23px;
+    color: whitesmoke;
+}
+.single-card h2{
+    font-size: 50px;
+    padding: 20px 0;
+    color: aliceblue;
+}
+.single-card h3{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:aliceblue;
+}
+.single-card p{
+    font-size: 23px;
+}
+.single-card span{
+    margin: 20px 0;
+    display: block;
 }
