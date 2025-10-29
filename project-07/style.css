@@ -15,6 +15,7 @@ nav ul li {
     padding: 0px 20px;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.865);
+    cursor: pointer;
 }
 .nav-btn{
     text-decoration: none;
@@ -31,4 +32,11 @@ nav ul li {
 }
 .nav-btn button:hover{
     background-color: #27d6f5b9;
+}
+header h2{
+    font-size: 20px;
+}
+header h2 span{
+    color: #27D6F5;
+    font-size: 25px;
 }
