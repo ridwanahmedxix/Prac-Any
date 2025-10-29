@@ -40,3 +40,43 @@ header h2 span{
     color: #27D6F5;
     font-size: 25px;
 }
+
+/* First Section Code Start  */
+
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.single-div-one{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.single-div-one h3{
+    font-size: 45px;
+    padding: 20px 0;
+}
+.single-div-one h3 span{
+    color: #27D6F5;
+}
+.single-div-one h4{
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+.single-div-one p{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 23px;
+    
+}
+.single-div-two{
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.btn-two-div{
+    padding: 40px 0;
+}
+.one-number-btn{
+    text-decoration: none;
+}
+.one-number-btn button{}
