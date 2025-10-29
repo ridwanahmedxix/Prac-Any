@@ -35,3 +35,29 @@ nav ul li{
 .more-btn button:hover{
     background-color: rgba(0, 0, 0, 0.642);
 }
+
+/* First Section Code Start  */
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.single-div-two img{
+      width: 800px;
+      margin-top: 40px;
+}
+.single-div-one{
+  margin-top: 100px;
+  padding-left: 60px;
+}
+.single-div-one h3{
+    font-size: 60px;
+}
+.single-div-one p{
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.801);
+}
