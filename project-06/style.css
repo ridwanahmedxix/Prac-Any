@@ -61,3 +61,18 @@ nav ul li{
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.801);
 }
+.explore{
+    text-decoration: none;
+}
+.explore button{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.explore button:hover{
+    background-color: rgba(0, 0, 0, 0.701);
+}
