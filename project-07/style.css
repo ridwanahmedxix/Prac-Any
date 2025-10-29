@@ -16,3 +16,19 @@ nav ul li {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.865);
 }
+.nav-btn{
+    text-decoration: none;
+
+}
+.nav-btn button{
+    background-color: #27D6F5;
+    padding: 20px 35px;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn button:hover{
+    background-color: #27d6f5b9;
+}
