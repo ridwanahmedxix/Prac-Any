@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
+    border: 1px solid black;
 }
 nav ul li{
     display: inline-block;
