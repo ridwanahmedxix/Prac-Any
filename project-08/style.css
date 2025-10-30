@@ -32,5 +32,35 @@ header h2{
 
 .single-div-two img{
     width: 500px;
-    margin-right: 100px;
+    margin-right: 80px;
+}
+.single-div-one{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.single-div-one h3{
+    font-size: 48px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.single-div-one p{
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
+}
+.ex-btn{
+    text-decoration: none;
+}
+.ex-btn button{
+    background-color: #fe5f3f;
+    padding: 15px 35px;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.ex-btn button:hover{
+    background-color: #fe5f3fbd;
 }
