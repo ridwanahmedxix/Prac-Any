@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #E8C5FC;
+    font-family: Arial;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 18px 10%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 19px;
+}
+header h2 span{
+    color: rgba(255, 0, 0, 0.918);
+}
+header h2{
+    border: 2px solid black;
+    padding: 10px 20px;
 }
