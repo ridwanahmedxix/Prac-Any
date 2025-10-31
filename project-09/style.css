@@ -2,10 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 header{
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
     
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 16px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.nav-main-logo span{
+    color: cyan;
+    font-size: 26px;
+}
+.nav-more-btn{
+    text-decoration: none;
 }
