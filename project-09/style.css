@@ -34,3 +34,27 @@ header nav ul li{
 .nav-more-btn button:hover{
     background-color: rgba(126, 126, 124, 0.742);
 }
+
+/* First section code start  */
+
+.parent-div{
+    display: flex;
+}
+.single-two img{
+    width: 600px;
+    margin-top: 50px;
+}
+.single-one{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.single-one h3{
+    font-size: 50px;
+    padding: 14px 0;
+}
+.single-one p{
+    padding-top: 14px;
+    padding-bottom: 35px;
+    color: rgba(0, 0, 0, 0.756);
+    letter-spacing: 1px;
+}
