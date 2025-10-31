@@ -23,3 +23,9 @@ header nav ul li{
 .nav-more-btn{
     text-decoration: none;
 }
+.nav-more-btn button{
+    padding: 10px 23px;
+    font-size: 18px;
+    border-radius: 16px;
+    border: none;
+}
