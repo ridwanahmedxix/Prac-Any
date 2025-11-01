@@ -40,3 +40,17 @@
      width: 100%;
      
 }
+.back-btn-div a{
+    text-decoration: none;
+}
+.back-btn-div a button{
+    margin: 30px auto;
+    display: block;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.back-btn-div a button:hover{
+    background-color: #E35FBE;
+}
