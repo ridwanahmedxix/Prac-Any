@@ -2,4 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #67E6B1;
+}
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.single-card{
+    transition: 0.5s ;
+    padding: 60px 20px;
+    background-color: #6C918A;
+    border-radius: 30px;
+    width: 100%;
+
+}
+.single-card h3{
+    background-color: #6C918A;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    letter-spacing: 2px;
+        transition: 0.5s ;
+}
+.single-card p{
+    background-color: #6C918A;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 22px;
+        transition: 0.5s ;
+}
+.single-card:hover{
+     border: 2px solid rgba(255, 0, 0, 0.895);
+     width: 100%;
+     
 }
