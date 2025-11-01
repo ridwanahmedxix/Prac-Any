@@ -40,3 +40,11 @@ header h2 span{
 .more-btn button:hover{
     background-color: rgba(132, 24, 24, 0.874);
 }
+.sec-logo-h3{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+.sec-logo-h3 span{
+    color: rgba(255, 0, 0, 0.87);
+}
