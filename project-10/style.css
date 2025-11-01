@@ -48,3 +48,14 @@ header h2 span{
 .sec-logo-h3 span{
     color: rgba(255, 0, 0, 0.87);
 }
+#first-section p{
+    font-size: 40px;
+    width: 1200px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.792);
+    text-align: justify;
+}
