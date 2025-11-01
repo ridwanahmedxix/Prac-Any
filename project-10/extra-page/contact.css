@@ -13,6 +13,13 @@ section{
 
 }
 section h2{
-    font-size: 28px;
+    font-size: 38px;
     padding: 20px 0;
+}
+.one{
+    font-size: 20px;
+    padding: 15px 30px;
+    text-align: left;
+    border: 2px solid rgba(255, 0, 0, 0.874);
+    
 }
