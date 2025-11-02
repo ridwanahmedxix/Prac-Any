@@ -6,47 +6,29 @@
 body{
     background-color: #f5f5f5;
 }
-.parent-div{
-    width: 80%;
-    max-width: 600px;
-    margin: 60px auto;
-    padding: 20px;
+.parentdiv{
+    width: 90%;
+    max-width: 850px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-}
-.parent-div h1{
+    margin: 70px auto;
+    padding: 30px;
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
 }
 form input{
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px 10px;
+    margin: 20px 0;
+    border-radius: 15px;
     border: none;
-    border-radius: 5px;
-    background-color: #f7f7f7;
-    color: #333 ;
+    background-color:aliceblue;
 }
 form textarea{
         display: block;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px 10px;
+    margin: 20px 0;
+    border-radius: 15px;
     border: none;
-    border-radius: 5px;
-    background-color: #f7f7f7;
-    color: #333 ;
-}
-button{
-        display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff ;
-    cursor: pointer;
+    background-color:aliceblue ;
 }
