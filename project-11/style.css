@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
     padding: 20px 9%;
     align-items: center;
-    background-color: #f5c9c9e6;
+    background-color: #F9F6F1;
 }
 nav ul li{
     list-style-type: none;
@@ -54,4 +54,8 @@ nav ul li:hover{
 .book-btn button:hover{
     background-color: rgb(27, 26, 26);
     border: 2px solid lawngreen;
+}
+.first-section{
+    background-color: #ead5bec3;
+    height: 100vh;
 }
