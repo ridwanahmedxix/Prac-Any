@@ -58,4 +58,47 @@ nav ul li:hover{
 .first-section{
     background-color: #ead5bec3;
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.first-two img{
+    width: 402px;
+    margin-right: 100px;
+}
+.first-one{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.first-one h1{
+    font-size: 100px;
+    font-weight: 250;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.first-one h3{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-one p{
+    padding-top: 20px;
+    width: 600px;
+    font-size: 17px;
+    line-height: 26px;
+}
+.learn-btn{
+    text-decoration: none;
+}
+.learn-btn button{
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-size: 19px;
+}
+.learn-btn button:hover{
+    border: 3px solid lawngreen;
+    background-color: rgb(26, 23, 23);
 }
