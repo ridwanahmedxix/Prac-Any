@@ -9,12 +9,18 @@ header{
     justify-content: space-between;
     padding: 20px 9%;
     align-items: center;
+    background-color: #f5c9c9e6;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 0px 10px;
     font-size: 18px;
+    border: none;
+    
+}
+nav ul li:hover{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.941);
 }
 .nav-main-logo{
     font-size: 20px;
@@ -26,4 +32,26 @@ nav ul li{
 .icon-div a i{
     margin: 0px 10px;
     font-size: 22px;
+    transition: 0.5s;
+       color: black;
+
+}
+.icon-div a i:hover{
+    color:darkslategray ;
+}
+.book-btn{
+    text-decoration: none;
+}
+.book-btn button{
+    background-color: black;
+    color: white;
+    padding: 17px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.book-btn button:hover{
+    background-color: rgb(27, 26, 26);
+    border: 2px solid lawngreen;
 }
