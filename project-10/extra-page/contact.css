@@ -34,4 +34,13 @@ form textarea{
 }
 .send-btn{
     border: none;
+    padding: 20px 35px;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.send-btn:hover{
+    background-color: darkgray;
 }
