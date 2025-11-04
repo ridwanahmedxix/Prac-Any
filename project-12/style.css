@@ -38,6 +38,10 @@ nav ul li{
     margin-right: 60px;
     cursor: pointer;
     border-radius: 12px;
+    transition: 0.5s;
+}
+.s-r-btn button:hover{
+    background-color:rgb(177, 177, 166);
 }
 .s-r-btn-2{
     text-decoration: none;
@@ -50,4 +54,8 @@ nav ul li{
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.s-r-btn-2 button:hover{
+    background-color: #bd4e37e2;
 }
