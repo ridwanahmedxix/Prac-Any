@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;padding: 20px 10%;
+    border-bottom: 2px solid rgba(30,30,30,0.6);
 }
 .icon-logo{
     display: flex ;
@@ -27,4 +28,26 @@ nav ul li{
     cursor: pointer;
     font-size: 17px;
     font-weight: bold;
+}
+.s-r-btn{
+    text-decoration: none;
+}
+.s-r-btn button{
+    font-size: 18px;
+    padding: 13px 25px;
+    margin-right: 60px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.s-r-btn-2{
+    text-decoration: none;
+}
+.s-r-btn-2 button{
+    font-size: 20px;
+    padding: 13px 25px;
+    background-color: #F76243;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
 }
