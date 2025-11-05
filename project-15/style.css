@@ -30,6 +30,7 @@ nav ul li:hover{
    color: 17px;
    cursor: pointer;
    transition: 0.5s;
+   font-size: 18px;
 }
 .nav-con-btn button:hover{
     background-color: #a82c7d;
@@ -67,4 +68,25 @@ nav ul li:hover{
     font-size: 19px;
     letter-spacing: 2px;
     margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gs-btn button:hover{
+    background-color:#b04b36 ;
+}
+.wv-btn{
+     margin-top: 20px;
+    padding: 15px 20px;
+    color: black ;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.wv-btn:hover{
+    background-color: rgba(0, 0, 0, 0.217);
 }
