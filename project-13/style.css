@@ -35,3 +35,28 @@ nav ul li{
     letter-spacing: 2px;
     font-weight: 100;
 }
+.nav-btn-one button{
+    padding: 8px 20px;
+    margin-right: 16px;
+    background-color: #1C9141;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-btn-one button:hover{
+    background-color: #13622c;
+}
+.nav-btn-two button{
+    padding: 8px 20px;
+    background-color: #DE5A4B;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-btn-two button:hover{
+    background-color: #9c3e33;
+}
