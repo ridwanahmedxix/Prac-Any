@@ -69,3 +69,16 @@ nav ul li{
     padding: 40px 30px;
     
 }
+.info-div{
+    display: inline-block;
+    margin-left: 900px;
+    color: aliceblue;
+}
+.info-div p{
+   width: 430px;
+   font-size: 22px;
+   line-height: 27px;
+   letter-spacing: 1px;
+   color: rgba(240, 248, 255, 0.829);
+   text-align: justify;
+}
