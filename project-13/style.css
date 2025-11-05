@@ -60,3 +60,12 @@ nav ul li{
 .nav-btn-two button:hover{
     background-color: #9c3e33;
 }
+
+/* FIRST SECTION CODE START  */
+.section-log-h2{
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.893);
+   font-family: 'Segoe UI';
+    padding: 40px 30px;
+    
+}
