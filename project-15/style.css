@@ -34,3 +34,13 @@ nav ul li:hover{
 .nav-con-btn button:hover{
     background-color: #a82c7d;
 }
+
+/* SECTION CODE START  */
+.single-div-two img{
+    width: 800px;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
