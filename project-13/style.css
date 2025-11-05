@@ -1,14 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('photo/light-skyscraper-downtown-architecture-business.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    align-items: center;
-    background-position: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100vh;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('photo/light-skyscraper-downtown-architecture-business.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;     
+  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 4%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 12px;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.nav-logo h3{
+    padding-right: 55px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
