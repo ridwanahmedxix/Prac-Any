@@ -14,6 +14,12 @@ nav ul li{
     display: inline-block;
     padding: 0px 10px;
     font-size: 18px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.909);
+    transition: 0.4s;
+}
+nav ul li:hover{
+    color: black;
 }
 .nav-con-btn button{
    padding: 12px 20px;
@@ -22,4 +28,9 @@ nav ul li{
    border: none;
    color: white;
    color: 17px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.nav-con-btn button:hover{
+    background-color: #a82c7d;
 }
