@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #255573;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+.bottom-color{
+    background-color: #D15488;
+    padding: 20px 0px;
+}
+.bottom-color p{
+    text-align: center;
+}
+.single-div h2{
+    color: rgba(255, 255, 255, 0.906);
+    padding-bottom: 15px;
+}
+.single-div p{
+    color: rgba(255, 255, 255, 0.852);
+    padding: 8px 0;
+    cursor: pointer;
+}
+.single-div li{
+    list-style: inside;
+    list-style-type: none;
+        display: inline-block;
+}
+.single-div li i{
+    color: rgba(255, 255, 255, 0.906);
+    font-size: 23px;
+    padding: 10px 4px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
