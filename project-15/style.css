@@ -2,4 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 9%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.nav-con-btn button{
+   padding: 12px 20px;
+   border-radius: 20px;
+   background-color: #E03AA6;
+   border: none;
+   color: white;
+   color: 17px;
 }
