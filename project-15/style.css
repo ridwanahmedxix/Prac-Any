@@ -101,7 +101,6 @@ nav ul li:hover{
 .parent-div-second-sec{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border: 2px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 100px;
@@ -112,9 +111,22 @@ nav ul li:hover{
 }
 .second-sec-single-div img{
     width: 100%;
-    grid-gap: 20px;
+    margin: 20px;
+    border: 5px solid #F527F2;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.second-sec-single-div img:hover{
+    width: 330px;
 }
 
 .n6-photo{
     height: 230px;
+}
+.second-sec-single-div p{
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
