@@ -93,3 +93,25 @@ nav ul li:hover{
 .wv-btn:hover{
     background-color: rgba(0, 0, 0, 0.217);
 }
+
+
+/* SECOND SECTION CODE START  */
+
+.parent-div-second-sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid black;
+    margin: 60px 40px;
+
+}
+.second-sec-single-div{
+    width: 300px;
+}
+.second-sec-single-div img{
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.n6-photo{
+    height: 230px;
+}
