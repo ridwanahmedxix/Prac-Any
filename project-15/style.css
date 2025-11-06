@@ -16,10 +16,13 @@ nav ul li{
     font-size: 18px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.909);
-    transition: 0.4s;
+    transition: 0.5s;
 }
 nav ul li:hover{
     color: black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.808);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .nav-con-btn button{
    padding: 12px 20px;
