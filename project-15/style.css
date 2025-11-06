@@ -130,3 +130,8 @@ nav ul li:hover{
     cursor: pointer;
     letter-spacing: 1px;
 }
+
+.second-sec-h4{
+    margin-left: 32%;
+    font-size: 30px;
+}
