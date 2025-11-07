@@ -156,4 +156,9 @@ footer {
   padding: 8px 0;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.single-footer p:hover {
+  border-bottom: 2px solid rgba(255, 0, 0, 0.847);
+  width: 85px;
 }
