@@ -131,7 +131,17 @@ nav ul li:hover {
   font-size: 30px;
 }
 
+/* THIRD SECTION CODE START  */
+
+.parent-third-sec {
+  width: 800px;
+  background-color: #dbdbdb;
+  margin: 20px auto;
+  padding: 35px 50px;
+}
+
 /* FOOTER SECTION CODE START  */
+/* 
 footer {
   background-color: #3b3b3b;
   color: white;
@@ -161,4 +171,4 @@ footer {
 .single-footer p:hover {
   border-bottom: 2px solid rgba(255, 0, 0, 0.847);
   width: 85px;
-}
+} */
