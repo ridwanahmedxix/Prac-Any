@@ -138,15 +138,21 @@ nav ul li:hover {
   background-color: #dbdbdb;
   margin: 20px auto;
   padding: 35px 50px;
+  border-radius: 20px;
 }
 .third-ab-sec p {
   font-size: 18px;
   line-height: 26px;
   padding: 20px 0;
 }
+.parent-third-sec h2 {
+  text-align: center;
+  padding: 15px 0px;
+  border-bottom: 2px solid black;
+}
 
 /* FOOTER SECTION CODE START  */
-/* 
+
 footer {
   background-color: #3b3b3b;
   color: white;
@@ -176,4 +182,4 @@ footer {
 .single-footer p:hover {
   border-bottom: 2px solid rgba(255, 0, 0, 0.847);
   width: 85px;
-} */
+}
