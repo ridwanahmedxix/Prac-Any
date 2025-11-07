@@ -132,3 +132,22 @@ nav ul li:hover {
 }
 
 /* FOOTER SECTION CODE START  */
+footer {
+  background-color: #2f5675;
+  color: white;
+  margin-top: 80px;
+  padding: 70px 20px;
+}
+
+.parent-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.single-footer h5 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.906);
+}
