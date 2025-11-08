@@ -9,6 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 8%;
+  background-image: url("photo/closeup-plant.jpg");
 }
 nav ul li {
   list-style-type: none;
@@ -23,9 +24,10 @@ nav ul li:hover {
   border-radius: 15px;
 }
 nav {
-  background-color: rgba(220, 220, 220, 0.532);
+  background-color: rgba(220, 220, 220, 0.893);
   padding: 15px 25px;
   border-radius: 20px;
+  border: 2px solid rgb(47, 219, 62);
 }
 .nav-btn {
   text-decoration: none;
@@ -36,12 +38,28 @@ nav {
   padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;
+  border: 2px solid rgb(47, 219, 62);
+  transition: 0.5s;
+}
+.nav-btn button:hover {
+  background-color: rgba(245, 245, 220, 0.911);
+  padding: 12px 22px;
 }
 
 .nav-h2 {
   letter-spacing: 2px;
-  border: 2px solid black;
+  border: 2px solid rgb(47, 219, 62);
   padding: 10px 20px;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.925);
+}
+
+/* FIRST SECTION CODE START  */
+.first-section {
+  background-image: url("photo/closeup-plant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
