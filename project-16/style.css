@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav ul li:hover {
+  background-color: ghostwhite;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+nav {
+  background-color: rgba(220, 220, 220, 0.532);
+  padding: 15px 25px;
+  border-radius: 20px;
+}
