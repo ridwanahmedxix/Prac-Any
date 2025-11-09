@@ -73,3 +73,20 @@ nav ul li:hover {
   background: linear-gradient(135deg, #041b33, #00172a);
   height: 100vh;
 }
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.single-div-two img {
+  width: 550px;
+  padding-right: 30px;
+}
+.single-div-one {
+  padding-left: 80px;
+}
+.single-div-one h2 {
+  font-size: 60px;
+  color: rgba(245, 245, 245, 0.806);
+}
