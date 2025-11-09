@@ -4,3 +4,15 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+header {
+  background-color: #001a33; /* Dark navy blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
