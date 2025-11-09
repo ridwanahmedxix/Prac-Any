@@ -89,4 +89,32 @@ nav ul li:hover {
 .single-div-one h2 {
   font-size: 60px;
   color: rgba(245, 245, 245, 0.806);
+  padding-bottom: 20px;
+}
+.Self-Esteem {
+  color: aqua;
+}
+.single-div-one p {
+  color: rgba(240, 248, 255, 0.888);
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 25px;
+}
+
+#vc-btn {
+  text-decoration: none;
+}
+#vc-btn button {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 17px 30px;
+  background-color: #0d72d0;
+  color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#vc-btn button:hover {
+  background-color: #0d72d0d8;
 }
