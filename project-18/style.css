@@ -49,8 +49,24 @@ header nav ul li:hover {
   letter-spacing: 1px;
 }
 .single-div-one p {
+  margin-top: 20px;
   width: 500px;
   font-size: 22px;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.824);
+}
+.icon-div {
+  margin-top: 45px;
+}
+.icon-div a {
+  text-decoration: none;
+}
+.icon-div a i {
+  color: rgba(0, 0, 0, 0.824);
+  font-size: 30px;
+  padding: 0px 5px;
+  transition: 0.5s;
+}
+.icon-div a i:hover {
+  color: rgba(255, 0, 0, 0.616);
 }
