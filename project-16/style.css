@@ -10,6 +10,7 @@ header {
   align-items: center;
   padding: 25px 8%;
   background-image: url("photo/closeup-plant.jpg");
+  border-bottom: 2px solid rgba(255, 255, 255, 0.621);
 }
 nav ul li {
   list-style-type: none;
@@ -53,6 +54,7 @@ nav {
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.925);
+  cursor: pointer;
 }
 
 /* FIRST SECTION CODE START  */
