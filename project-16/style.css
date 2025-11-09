@@ -64,4 +64,22 @@ nav {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding: 60px 0;
+}
+.sec-h3-tag {
+  background-color: #8d99f0;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 0px 10px;
+  border-radius: 60px 20px;
+  border: 2px solid white;
+}
+.sec-h3-tag h3 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: Arial;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px 0px;
 }
