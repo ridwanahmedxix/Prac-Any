@@ -59,6 +59,8 @@ nav ul li:hover {
 #Ra {
   font-size: 23px;
   position: absolute;
-  top: 32px;
+  letter-spacing: 1px;
+  top: 28px;
   left: 100px;
+  font-family: cursive;
 }
