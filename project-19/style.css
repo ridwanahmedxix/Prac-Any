@@ -61,3 +61,43 @@ section {
   padding: 12px 10px;
   border-radius: 10px 30px;
 }
+
+.parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  margin: 10px auto;
+  width: 1000px;
+}
+.single-div-one {
+  width: 100%;
+  border: 2px solid black;
+  height: 100%;
+  padding: 25px 20px;
+  height: 450px;
+  text-align: center;
+  border-radius: 30px;
+}
+.single-div-one img {
+  width: 100%;
+  height: 58%;
+}
+.single-div-one h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 12px 0;
+}
+.single-div-one p {
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.847);
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 13px;
+}
+.single-div-one a button {
+  padding: 10px 20px;
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
