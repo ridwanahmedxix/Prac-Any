@@ -100,4 +100,10 @@ section {
   margin-bottom: 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   cursor: pointer;
+  transition: 0.7s;
+  border-radius: 15px;
+}
+.single-div-one a button:hover {
+  background-color: rgba(0, 0, 0, 0.089);
+  border-radius: 30px;
 }
