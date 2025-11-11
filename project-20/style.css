@@ -10,3 +10,32 @@ body {
   align-items: center;
   background-repeat: no-repeat;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  color: #fff;
+}
+header h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 1000;
+  cursor: pointer;
+}
+header h2 span i {
+  color: #27f55b;
+}
+header a button {
+  background-color: #27f55abe;
+  color: #fff;
+  font-size: 17px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header a button:hover {
+  background-color: rgb(201, 185, 185);
+}
