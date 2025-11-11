@@ -67,7 +67,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
   margin: 10px auto;
-  width: 1000px;
+  width: 1200px;
 }
 .single-div-one {
   width: 100%;
@@ -77,10 +77,13 @@ section {
   height: 450px;
   text-align: center;
   border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6),
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
 }
 .single-div-one img {
   width: 100%;
   height: 58%;
+  object-fit: scale-down;
 }
 .single-div-one h3 {
   font-size: 20px;
