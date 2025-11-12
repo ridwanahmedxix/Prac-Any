@@ -59,6 +59,7 @@ header a button:hover {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.799);
   margin-left: 90px;
+  cursor: pointer;
 }
 
 .single-div-one h1 {
