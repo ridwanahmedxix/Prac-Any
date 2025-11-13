@@ -62,3 +62,33 @@ header h2 i {
   object-fit: cover;
   height: 90vh;
 }
+
+.parent-div {
+  width: 800px;
+  margin-left: 170px;
+  padding-top: 100px;
+}
+.parent-div h1 {
+  font-size: 70px;
+  color: #e3cdcd;
+}
+.parent-div p {
+  color: rgba(202, 214, 214, 0.879);
+  font-size: 25px;
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+.parent-div a button {
+  font-size: 20px;
+  padding: 20px 27px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.parent-div a button:hover {
+  background-color: rgba(1, 110, 1, 0.906);
+}
