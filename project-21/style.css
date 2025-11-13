@@ -2,4 +2,63 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.4s ease;
+}
+nav ul li:hover {
+  border-color: green;
+}
+header h2 i {
+  color: green;
+  font-size: 50px;
+  position: absolute;
+  top: 19px;
+  left: 58px;
+}
+.icon-search input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.icon-search {
+  border: 2px solid black;
+  padding: 14px;
+  border-radius: 20px;
+}
+.btn-icon h5 {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.btn-icon h5 i {
+  color: green;
+  font-size: 20px;
+}
+
+/* FIRST SECTION  */
+
+.first-section {
+  background-image: url(photo/colourful-packets-decorated-leaves.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 90vh;
 }
