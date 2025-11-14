@@ -10,6 +10,13 @@ header {
   align-items: center;
   padding: 25px 10%;
 }
+.nav-h2 {
+  font-size: 35px;
+  cursor: pointer;
+}
+.nav-h2 span {
+  color: green;
+}
 
 nav ul li a {
   text-decoration: none;
@@ -25,4 +32,19 @@ nav ul li a:hover {
 nav ul li {
   display: inline-block;
   padding: 0px 15px;
+}
+
+.nav-btn button {
+  border: none;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 140px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.nav-btn button:hover {
+  background-color: rgb(38, 37, 37);
 }
