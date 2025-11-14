@@ -9,6 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 10%;
+  background-color: bisque;
 }
 .nav-h2 {
   font-size: 35px;
