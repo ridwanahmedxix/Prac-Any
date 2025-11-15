@@ -16,6 +16,11 @@ function myTime() {
 
     let CurentTime = hr + ":" + min + ":" + sec + ":"
 
+    document.getElementsByClassName("H")[0].innerHTML = CurentTime ;
+    document.getElementsByClassName("M")[0].innerHTML = M ;
+    
+    let myday = [ "Sunday"  ,"Monday", "Tuesday", "Wednesday", "Thursday", "Friday" , "Saturday" ]
+
 
 
 }
