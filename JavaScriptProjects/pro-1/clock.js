@@ -20,8 +20,9 @@ function myTime() {
     document.getElementsByClassName("M")[0].innerHTML = M ;
     
     let myday = [ "Sunday"  ,"Monday", "Tuesday", "Wednesday", "Thursday", "Friday" , "Saturday" ]
-    let mymonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+     mymonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+     day = myDate.getDate()
 
-
+     let currentDate = myday[myDate.getDay()] + "," + mymonth[myDate.getMonth()] + day ;
 
 }
