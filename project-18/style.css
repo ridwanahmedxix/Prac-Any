@@ -70,3 +70,37 @@ header nav ul li:hover {
 .icon-div a i:hover {
   color: rgba(255, 0, 0, 0.616);
 }
+
+/* Responsive Design Start  */
+
+@media screen and (max-width: 576px) {
+  header nav ul li {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  .parent-div {
+    width: 80%;
+    margin: 70px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: block;
+  }
+  .single-div-two img {
+    width: 180px;
+    margin-left: 20%;
+    border-radius: 20px;
+  }
+  .single-div-one p {
+    width: 75%;
+    text-align: justify;
+    line-height: normal;
+  }
+  .single-div-one h2 {
+    font-size: 20px;
+  }
+  .icon-div {
+    margin-bottom: 30px;
+  }
+}
