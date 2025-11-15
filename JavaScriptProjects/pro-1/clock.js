@@ -24,5 +24,11 @@ function myTime() {
      day = myDate.getDate()
 
      let currentDate = myday[myDate.getDay()] + "," + mymonth[myDate.getMonth()] + day ;
-
+     
+     document.getElementsByClassName("date")[0].innerHTML = currentDate ;
 }
+
+myTime() ;
+setInterval(function(){
+    myTime() ;
+})
