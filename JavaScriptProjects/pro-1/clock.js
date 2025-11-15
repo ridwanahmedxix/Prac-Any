@@ -20,6 +20,7 @@ function myTime() {
     document.getElementsByClassName("M")[0].innerHTML = M ;
     
     let myday = [ "Sunday"  ,"Monday", "Tuesday", "Wednesday", "Thursday", "Friday" , "Saturday" ]
+    let mymonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 
 
