@@ -31,4 +31,4 @@ function myTime() {
 myTime() ;
 setInterval(function(){
     myTime() ;
-})
+} , 1000)
