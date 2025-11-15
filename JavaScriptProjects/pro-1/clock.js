@@ -1,5 +1,7 @@
 
 function myTime() {
     let myDate = new Date() ;
-    let hr,min = (myDate.getMinutes() < 10 ) ? "0" + myDate.getMinutes() : myDate.getMinutes() ;
-}        sec = (myDate.getSeconds() < 10 ) ? "0" + myDate.getSeconds() : myDate.getSeconds() ;
+    let hr,min = (myDate.getMinutes() < 10 ) ? "0" + myDate.getMinutes() : myDate.getMinutes(),
+       sec = (myDate.getSeconds() < 10 ) ? "0" + myDate.getSeconds() : myDate.getSeconds() ,
+       M = (myDate.getHours() >=12 ) ? "PM" :"AM" ;
+}
