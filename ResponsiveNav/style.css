@@ -43,4 +43,10 @@ nav ul li:first-child {
 
 .sideBar {
   position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
 }
