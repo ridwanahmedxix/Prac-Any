@@ -10,6 +10,10 @@
 }
 .single-div-one h2 {
   font-size: 40px;
+  border: 2px solid #27f561;
+  padding: 15px 0;
+  width: 600px;
+  margin: auto;
 }
 
 .single-div-two {
@@ -23,8 +27,29 @@
 }
 .single-card {
   background-color: #27f561;
-  padding: 40px 20px;
+  padding: 50px 30px;
+  border-radius: 20px 60px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.single-card:hover {
+  background-color: aqua;
 }
 .single-card h3 {
   font-size: 30px;
+}
+.back-btn {
+  text-decoration: none;
+}
+.back-btn button {
+  background-color: #27f561;
+  margin-top: 30px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 0.5s ease;
+}
+.back-btn button:hover {
+  background-color: aqua;
 }
