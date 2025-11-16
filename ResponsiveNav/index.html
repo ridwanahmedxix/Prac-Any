@@ -15,7 +15,14 @@
   <body>
     <nav>
       <ul class="sideBar">
-        <li><a href="#">RidwaN</a></li>
+        <li onclick="hideShidebar()">
+          <a href="#"
+            ><img
+              style="width: 26px; height: 26px"
+              src="photo/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+          /></a>
+        </li>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
@@ -30,7 +37,7 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">More</a></li>
-        <li>
+        <li onclick="showSidebar()">
           <a href="#"
             ><img
               style="width: 26px; height: 26px"
@@ -40,5 +47,6 @@
         </li>
       </ul>
     </nav>
+    <script src="nav.js"></script>
   </body>
 </html>
