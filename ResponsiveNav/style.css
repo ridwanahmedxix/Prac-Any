@@ -62,11 +62,23 @@ nav ul li:first-child {
 .sideBar a {
   width: 100%;
 }
+.menu-btn {
+  display: none;
+}
 
 /* Responsive Code Start  */
 
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sideBar {
+    width: 100%;
   }
 }
