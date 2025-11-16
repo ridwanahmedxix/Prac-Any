@@ -42,5 +42,6 @@ section {
   cursor: pointer;
 }
 .back-btn button:hover {
-  background-color: coral;
+  background-color: #27f576;
+  padding: 15px 25px;
 }
