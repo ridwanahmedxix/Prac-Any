@@ -38,4 +38,9 @@ section {
   margin: 20px auto;
   display: block;
   border-radius: 30px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.back-btn button:hover {
+  background-color: coral;
 }
