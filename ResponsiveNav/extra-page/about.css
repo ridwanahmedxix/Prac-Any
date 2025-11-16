@@ -27,7 +27,7 @@ section {
 }
 .single-div-one ul {
   margin: 20px 0;
-  /* list-style-position: inside; */
+  list-style-position: inside;
 }
 .single-div-one a {
   text-decoration: none;
@@ -56,4 +56,48 @@ section {
 .single-card h4 {
   font-size: 20px;
   padding: 10px 0px 20px 0;
+}
+
+/* Responsive code start  */
+
+@media only screen and (max-width: 688px) {
+  .parent-div {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .single-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
+  .single-div-one a {
+    margin-bottom: 25px;
+  }
+  .single-div-one ul li {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  .single-div-one h4 {
+    font-size: 45px;
+  }
+  .single-div-one p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1099px) {
+  .parent-div {
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .single-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
 }
