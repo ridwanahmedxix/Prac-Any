@@ -62,3 +62,11 @@ nav ul li:first-child {
 .sideBar a {
   width: 100%;
 }
+
+/* Responsive Code Start  */
+
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
