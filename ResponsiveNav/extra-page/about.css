@@ -27,7 +27,7 @@ section {
 }
 .single-div-one ul {
   margin: 20px 0;
-  list-style-position: inside;
+  /* list-style-position: inside; */
 }
 .single-div-one a {
   text-decoration: none;
@@ -38,4 +38,22 @@ section {
   display: inline-block;
   margin-top: 17px;
   border-radius: 20px;
+}
+
+.single-div-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+}
+.single-card {
+  background-color: #eaecee;
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
+.single-card h4 {
+  font-size: 20px;
+  padding: 10px 0px 20px 0;
 }
