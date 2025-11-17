@@ -10,7 +10,14 @@
   <body>
     <nav>
       <ul class="sideBar">
-        <li><a href="#">Ridwan</a></li>
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img
+              style="background-color: black; width: 26px; height: 26px"
+              src="photo/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+          /></a>
+        </li>
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
@@ -19,13 +26,14 @@
 
       <ul>
         <li><a href="#">Ridwan</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#" class="hideSidebar">Home</a></li>
+        <li><a href="#" class="hideSidebar">Services</a></li>
+        <li><a href="#" class="hideSidebar">Contact</a></li>
+        <li><a href="#" class="hideSidebar">Blog</a></li>
         <li onclick="showSidebar()">
           <a href="#"
             ><img
+              class="menu-btn"
               style="background-color: black; height: 26px; width: 26px"
               src="photo/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
               alt=""
