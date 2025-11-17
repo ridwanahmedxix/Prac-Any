@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-image: url("/extra-page/about.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 150px 0;
+}
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+}
+.single-div-one h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.single-div-one ul {
+  margin: 20px 0;
+  list-style-position: inside;
+}
+.single-div-one a {
+  text-decoration: none;
+  font-size: 19px;
+  background-color: yellow;
+  padding: 10px 30px;
+  color: black;
+  display: inline-block;
+  margin-top: 17px;
+  border-radius: 20px;
+}
+
+.single-div-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+}
+.single-card {
+  background-color: #eaecee;
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
+.single-card h4 {
+  font-size: 20px;
+  padding: 10px 0px 20px 0;
+}
+
+/* Responsive code start  */
+
+@media only screen and (max-width: 688px) {
+  .parent-div {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .single-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
+  .single-div-one a {
+    margin-bottom: 25px;
+  }
+  .single-div-one ul li {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  .single-div-one h4 {
+    font-size: 45px;
+  }
+  .single-div-one p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1099px) {
+  .parent-div {
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .single-div-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
+}
