@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ed8282;
+  background-color: #f7d6d0b9;
   min-height: 100vh;
   padding-top: 50px;
   text-align: center;
@@ -24,4 +24,49 @@ body h2 {
 .single-div {
   border: 2px solid black;
   padding: 20px 18px;
+}
+.our-ser {
+  font-size: 50px;
+}
+.back-btn {
+  text-decoration: none;
+}
+.back-btn button {
+  margin: 30px 0;
+  background-color: #798cf6;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 20px;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.single-div {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #27f587e4;
+  transition: 0.5s ease-in-out;
+}
+.single-div:hover {
+  background-color: #27e4f5;
+}
+
+/* RESPONSIVE CODE START  */
+@media (max-width: 599px) {
+  .parent-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 600px;
+    width: 80%;
+  }
+  .our-ser {
+    font-size: 40px;
+  }
+  .back-btn {
+    margin-top: 30px;
+  }
+}
+
+/* TAB RESPONSIVE  */
+@media (min-width: 600px) and (max-width: 1111px) {
 }
