@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 header {
   background-color: rgba(0, 0, 0, 0.897);
   padding: 30px 8%;
@@ -50,6 +51,40 @@ nav ul li a:hover {
   background-color: rgb(171, 17, 48);
 }
 
+/* FIRST SECTION CODE START  */
+
+.first-section {
+  background-image: url("photo/download.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: aliceblue;
+}
+.parent-div {
+  text-align: center;
+  padding-top: 50px;
+}
+.parent-div h3 {
+  font-size: 60px;
+  padding-bottom: 14px;
+}
+.parent-div p {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  /* line-height: 25px; */
+}
+.nav-logo-div-2 button {
+  margin: 50px 0;
+  padding: 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+}
+
+/* RESPONSIVE CODE START  */
+
 @media (max-width: 599px) {
   header {
     display: block;
@@ -66,6 +101,9 @@ nav ul li a:hover {
   .nav-logo-div {
     padding-top: 20px;
     text-align: center;
+  }
+  .parent-div h3 {
+    font-size: 30px;
   }
 }
 
