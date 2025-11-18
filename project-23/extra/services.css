@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #ed8282;
+  min-height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+}
+body h2 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+.parent-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+.single-div {
+  border: 2px solid black;
+  padding: 20px 18px;
+}
