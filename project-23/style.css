@@ -49,3 +49,22 @@ nav ul li a:hover {
 .nav-logo-div button:hover {
   background-color: rgb(171, 17, 48);
 }
+
+@media (max-width: 500px) {
+  header {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    padding: 7px 0;
+  }
+  header h2 {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .nav-logo-div {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
