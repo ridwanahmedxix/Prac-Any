@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 header {
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.897);
   padding: 30px 8%;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 .nav-logo-div button {
-  background-color: crimson;
+  background-color: rgb(220, 20, 20);
   color: white;
   padding: 15px 30px;
   margin: 0px 10px;
@@ -50,7 +50,27 @@ nav ul li a:hover {
   background-color: rgb(171, 17, 48);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 599px) {
+  header {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    padding: 7px 0;
+  }
+  header h2 {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .nav-logo-div {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+/* Tab section code start  */
+@media (min-width: 600px) and (max-width: 1111px) {
   header {
     display: block;
   }
