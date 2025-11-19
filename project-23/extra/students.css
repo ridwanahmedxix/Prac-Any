@@ -41,6 +41,14 @@ section h2 {
   border: none;
   background-color: aquamarine;
   cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.back-btn button:hover {
+  background-color: rgb(99, 205, 169);
+}
+.single-card-one h3 span {
+  color: cyan;
 }
 
 /* RESPONSIVE CODE START  */
@@ -57,12 +65,16 @@ section h2 {
     padding-top: 40px;
   }
   .single-card-one h3 {
-    font-size: 20px;
+    font-size: 50px;
+  }
+  .single-card-one p {
+    font-size: 17px;
+    line-height: 20px;
   }
   .back-btn button {
     padding: 15px;
   }
   .single-card-two img {
-    width: 200px;
+    width: 270px;
   }
 }
