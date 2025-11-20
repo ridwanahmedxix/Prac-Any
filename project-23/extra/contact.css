@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+}
+footer {
+  padding: 100px 0 50px 0;
+  color: white;
+}
+.footer-parent {
+  display: flex;
+  gap: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.single-footer {
+  width: 100%;
+  align-items: center;
+}
+.single-footer-1 h4 {
+  margin-bottom: 20px;
+}
+.single-footer-1 p {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.newP p {
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+.newP p:hover {
+  border: 1px solid black;
+  background-color: deepskyblue;
+}
+.newP h3 {
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+.newP h3:hover {
+  border: 1px solid black;
+  background-color: deepskyblue;
+}
+.single-footer-2 h4 {
+  margin-bottom: 20px;
+}
+.single-footer-2 p {
+  margin: 15px 0;
+  cursor: pointer;
+}
+.single-footer-3 h4 {
+  margin-bottom: 20px;
+}
+.single-footer-3 h3 {
+  margin: 20px 0;
+  font-size: 17px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.back-bnt {
+  text-decoration: none;
+}
+.back-bnt button {
+  border: none;
+  padding: 15px 25px;
+  background-color: rgba(220, 20, 60, 0.897);
+  cursor: pointer;
+  border-radius: 20px;
+  color: aliceblue;
+  transition: 0.5s ease;
+}
+.back-bnt button:hover {
+  background-color: rgb(161, 15, 44);
+}
+@media (max-width: 599px) {
+  .footer-parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}

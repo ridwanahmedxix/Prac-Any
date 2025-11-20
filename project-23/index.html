@@ -3,36 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PROJECT - 23</title>
+    <title>MODEL COLLAGE</title>
     <!-- CSS LINK  -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h2>Model Collage</h2>
-      <nav>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/extra/services.html">Services</a></li>
-          <li><a href="/extra/students.html">Students</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="nav-logo-div">
-        <a href="#"><button>More</button></a>
-      </div>
-    </header>
-    <section class="first-section">
+    <nav>
+      <ul class="sideBar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img
+              style="background-color: black; width: 26px; height: 26px"
+              src="photo/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+          /></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/extra/services.html">Services</a></li>
+        <li><a href="/extra/students.html">Students</a></li>
+        <li><a href="/extra/contact.html">Contact</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="">Model Collage</a></li>
+        <li><a href="index.html" class="hideSidebar">Home</a></li>
+        <li><a href="/extra/services.html" class="hideSidebar">Services</a></li>
+        <li><a href="/extra/students.html" class="hideSidebar">Students</a></li>
+        <li><a href="/extra/contact.html" class="hideSidebar">Contact</a></li>
+        <li onclick="showSidebar()">
+          <a href="#"
+            ><img
+              class="menu-btn"
+              style="background-color: black; height: 26px; width: 26px"
+              src="photo/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <section>
       <div class="parent-div">
-        <h3>Model Collage</h3>
+        <h2>Welcome to our collage</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          molestias deserunt dolorum doloremque blanditiis expedita numquam
-          iusto quos impedit rerum.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+          doloribus itaque esse, pariatur suscipit illo minus maxime voluptates
+          maiores commodi sed error! Quod quibusdam mollitia assumenda. Illum
+          aperiam odio tenetur.
         </p>
-        <a class="nav-logo-div-2" href="#"><button>BOOK NOW</button></a>
       </div>
     </section>
+    <script src="home.js"></script>
   </body>
 </html>
