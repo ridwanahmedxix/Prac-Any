@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8%;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+}
+nav ul li {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.5s ease;
+}
+nav ul li:hover {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.more-btn {
+  text-decoration: none;
+}
+.more-btn button {
+  padding: 8px 20px;
+  font-size: 19px;
+  border-radius: 20px;
+  border: 2px solid red;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.more-btn button:hover {
+  background-color: rgb(210, 40, 40);
+  color: white;
+}
