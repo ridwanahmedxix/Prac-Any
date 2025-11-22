@@ -3,6 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url("photo/projec-24-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +17,12 @@ header {
   align-items: center;
   background-color: black;
   color: aliceblue;
+}
+header h2 span {
+  color: rgb(254, 27, 27);
+  border: 2px solid red;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 nav ul li {
   display: inline-block;
@@ -37,4 +50,143 @@ nav ul li:hover {
 .more-btn button:hover {
   background-color: rgb(210, 40, 40);
   color: white;
+}
+
+/* <!-- FIRST SECTION CODE START  --> */
+#first-section {
+  margin-bottom: 120px;
+}
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+  padding-top: 80px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.single-div h1 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.single-div h4 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.single-div p {
+  padding-bottom: 20px;
+  max-width: 1000px;
+  width: 85%;
+  font-size: 20px;
+  line-height: 26px;
+}
+.abMe button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 10px 30px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.abMe button:hover {
+  background-color: rgb(243, 61, 61);
+}
+.single-div h1 span {
+  color: rgb(244, 21, 21);
+}
+
+/* SECOND SECTION CODE START  */
+
+#second-section {
+  background-color: beige;
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+#second-section h2 {
+  padding-bottom: 25px;
+  font-size: 35px;
+}
+
+.parent-box-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.single-box-one {
+  border: 2px solid black;
+  padding: 20px 15px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: aqua;
+  border-radius: 10px 30px;
+}
+.single-box-one:hover {
+  background-color: aquamarine;
+}
+.single-box-one h3 {
+  padding: 20px;
+}
+.single-box-one p {
+  padding-bottom: 20px;
+}
+
+/* RESPONSIVE CODE START  */
+
+@media (max-width: 599px) {
+  /* HEADER CODE START  */
+  header {
+    display: block;
+    padding: 30px 10%;
+    text-align: center;
+  }
+  header h2 {
+    padding: 25px 0;
+  }
+  nav ul li {
+    display: block;
+    margin: 8px 0;
+    padding: 5px 0;
+  }
+
+  .more-btn button {
+    margin-top: 20px;
+  }
+
+  /* FIRST SECTION CODE START  */
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 160vh;
+  }
+  .parent-div {
+    display: block;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  /* SECOND SECTION CODE START  */
+
+  .parent-box-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  #second-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .single-box-one h3 {
+    padding: 10px;
+  }
+  .single-box-one p {
+    padding-bottom: 10px;
+  }
 }
